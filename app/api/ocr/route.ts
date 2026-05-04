@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        model: "google/gemma-4-26b-a4b-it:free",
         messages: [
           {
             role: "user",
